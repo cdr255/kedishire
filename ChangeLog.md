@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
  - Project Directory and File Setup.
+ - tiles.c/h - Code dealing with tiles, tilesets, and drawing tiles.
+ - audio.c/h - Wrapper function for loading bgm by filename.
  
 ### Changed
 

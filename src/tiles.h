@@ -1,5 +1,5 @@
-#ifndef TILES_H
-#define TILES_H
+#ifndef _TILES_H_
+#define _TILES_H_
 
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
@@ -22,9 +22,6 @@ struct tileset {
 
 bool tileset_load(struct tileset **tileset, struct tile **tiles, const char *tileset_image);
 bool tileset_free(struct tileset **tileset, struct tile **tiles);
-
-struct tileset *tileset;
-struct tile *tiles;
  
 
 #endif
